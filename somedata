@@ -1,0 +1,21 @@
+with open("image.png", 'rb') as f:
+	while True:
+        data = f.read(BUF_SIZE)
+        if not data:
+            break
+        md5.update(data)
+        sha1.update(data)
+
+
+5b68ef0d963a19fafdb773474d368ff19f51cdd51d98111caa03bdc0e3fc8be3 
+
+
+{
+  "hash": "c317e457ffe78d3cbcd624306674d0ac0777d3808b77b004681c8e6bb7e72ab6",
+  "size": 440677,
+  "index": 0,
+  "challenges": [
+    "5b68ef0d963a19fafdb773474d368ff19f51cdd51d98111caa03bdc0e3fc8be3"
+  ],
+  
+}
